@@ -29,3 +29,5 @@ for ip, count in failed_ip_counts.items():
     print(f"IP Target: {ip} | Total Failures: {count}")
     if count >= 3:
         print(f"  [ACTION] Automatically pushing {ip} to Firewall Blocklist!")
+       
+        
